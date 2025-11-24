@@ -1,0 +1,35 @@
+{
+  "name": "stylelint-config-midoriwallet",
+  "version": "0.0.1",
+  "description": "Midori Wallet shared stylelint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "keywords": [
+    "stylelint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/midoriwallet/stylelint-config-mw.git"
+  },
+  "author": "Midori Wallet <contact@astian.org> (https://astian.org/)",
+  "license": "MIT",
+  "dependencies": {
+    "postcss-html": "^1.5.0",
+    "stylelint-config-idiomatic-order": "^9.0.0",
+    "stylelint-config-standard-scss": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-mw": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "midoriwallet"
+    ],
+    "env": {
+      "node": true
+    }
+  }
+}
